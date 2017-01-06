@@ -117,6 +117,10 @@ target '<Your Target Name>' do
   # markdown编辑器
   # https://github.com/indragiek/MarkdownTextView
   pod "MarkdownTextView"
+  
+  # 动效库
+  # https://github.com/storehouse/Advance
+  pod 'Advance', '~> 0.9'
 
 end
 
