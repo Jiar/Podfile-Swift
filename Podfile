@@ -121,6 +121,10 @@ target '<Your Target Name>' do
   # 动效库
   # https://github.com/storehouse/Advance
   pod 'Advance', '~> 0.9'
+  
+  # 类似 Instagram 图片滤镜库及示例
+  # https://github.com/makomori/Sharaku
+  pod "Sharaku"
 
 end
 
