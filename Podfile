@@ -125,7 +125,12 @@ target '<Your Target Name>' do
   # 类似 Instagram 图片滤镜库及示例
   # https://github.com/makomori/Sharaku
   pod "Sharaku"
-
+  
+  ##### 以下为OC部分 #####
+  
+  # 本项目提供一种透明的方式，让开发者像以前一样使用导航器，同时，每个 push 进来的 VC 有自己独立的导航条。
+  pod "RTRootNavigationController"
+  
 end
 
 target '<Your Tests Target Name>' do
