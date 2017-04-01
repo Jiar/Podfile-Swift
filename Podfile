@@ -131,6 +131,9 @@ target '<Your Target Name>' do
   # 本项目提供一种透明的方式，让开发者像以前一样使用导航器，同时，每个 push 进来的 VC 有自己独立的导航条。
   pod "RTRootNavigationController"
   
+  # Simple Objective-C wrapper for the keychain that works on Mac and iOS
+  pod 'SAMKeychain'
+  
 end
 
 target '<Your Tests Target Name>' do
